@@ -8,8 +8,6 @@ initialize的时候parent全部是自己，rank全部是0，count是总共有多
 
 在原方程里直接对着每个为1的点的周围的点call union(n1, n1)，union先call find(n)来找到对应的最后的parent。小rank的parent就被大rank的parent当爸爸，rank一样的话随便选一个当爸爸，rank再加1，count再减1。
 
-test
-
 #### Tree Traversal
 如果curr pointer或者stack一个不为空就继续，区别在于是push进去还是pop出来的时候读curr的值，post order的话直接用addFirst和左右颠倒实现。
 
