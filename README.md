@@ -11,9 +11,6 @@ initialize的时候parent全部是自己，rank全部是0，count是总共有多
 #### Tree Traversal
 如果curr pointer或者stack一个不为空就继续，区别在于是push进去还是pop出来的时候读curr的值，post order的话直接用addFirst和左右颠倒实现。
 
-#### 457. Circular Array Loop
-题目描述太奇怪了，只能forword or backward
-
 #### 475. Heaters
 这道题题意有点奇怪，最终就是不要从heater出发来考虑，而要从house来考虑即可
 
