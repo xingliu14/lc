@@ -11,9 +11,6 @@ initialize的时候parent全部是自己，rank全部是0，count是总共有多
 #### Tree Traversal
 如果curr pointer或者stack一个不为空就继续，区别在于是push进去还是pop出来的时候读curr的值，post order的话直接用addFirst和左右颠倒实现。
 
-#### 482. License Key Formatting
-关键是取mod的时候的小技巧
-
 #### 486. Predict the Winner
 不能简单的用某一种可行的方案，因为对面是会用最好的方案的。必须用DP从后往前算
 
