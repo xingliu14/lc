@@ -14,9 +14,6 @@ initialize的时候parent全部是自己，rank全部是0，count是总共有多
 #### 505. The Maze II
 死亡dfs，根本不管终点，只把全部地图走完，最后查步数
 
-#### 524. Longest Word in Dictionary through Deleting
-就是最朴素的做法，一个一个比
-
 #### 549. Binary Tree Longest Consecutive Sequence II
 二叉树还是得用递归，最开始处理root为空的情况，对于有很多种情况取最值的问题，用一个全局变量存
 
